@@ -28,7 +28,7 @@ int main(void)
     ret_code_t err_code;
 
     /* 1-channel PWM, 200Hz, output on DK LED pins. */
-		app_pwm_config_t pwm1_cfg = APP_PWM_DEFAULT_CONFIG_1CH(5000L,TP05_PIN); 
+    app_pwm_config_t pwm1_cfg = APP_PWM_DEFAULT_CONFIG_1CH(5000L,TP05_PIN); 
 
 
     /* Switch the polarity of the second channel. */
@@ -41,6 +41,6 @@ int main(void)
 
     uint32_t value = 50;
 
-		app_pwm_channel_duty_set(&PWM1, 0, value);	//set duty cycle on channel '0'
+    app_pwm_channel_duty_set(&PWM1, 0, value);	//set duty cycle on channel '0'
 
 }
