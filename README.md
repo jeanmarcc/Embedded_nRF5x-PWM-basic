@@ -9,7 +9,7 @@ This firmware creates a PWM channel for output PIN "LED_PIN"
 Hardware: 
 
 - nRF5x series (nRF52832)
-- any device that can be driven with PWM (LED, Piezo...)
+- any device that can be driven with PWM (LED, Piezzo...)
 
 Pinout: 
 
